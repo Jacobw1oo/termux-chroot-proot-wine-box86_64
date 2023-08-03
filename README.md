@@ -1,10 +1,16 @@
 # Termux chroot / proot with Wine, Box86, and GPU
 
+## Next branch
+
+This branch is used to test the new features and refactoring before integrate to the main branch.
+
 ## Getting started
 
-You can set up everything using this command in Termux (Github version):
+You can set up everything using this command in Termux (Github version).
 
-    pkg update -y && pkg install -y wget && wget https://raw.githubusercontent.com/cheadrian/termux-chroot-proot-wine-box86_64/main/Scripts/Getting_Started.sh && chmod +x Getting_Started.sh && ./Getting_Started.sh && rm Getting_Started.sh
+This will use the **next** branch, not main:
+
+    pkg update -y && pkg install -y wget && wget https://raw.githubusercontent.com/cheadrian/termux-chroot-proot-wine-box86_64/next/Scripts/Getting_Started.sh && chmod +x Getting_Started.sh && ./Getting_Started.sh && rm Getting_Started.sh
 	
 This script will:
 - Clone this git and scripts;
