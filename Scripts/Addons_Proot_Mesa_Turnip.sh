@@ -13,8 +13,8 @@ echo -e "Press any key to continue."
 read -n 1 -s -r
 
 echo -e "${GREEN}Download and install Vulakn KGSL.${WHITE}"
-wget https://github.com/xDoge26/proot-setup/raw/main/Packages/mesa-vulkan-kgsl_23.3.0-devel-20230728_arm64.deb
-wget https://github.com/xDoge26/proot-setup/raw/main/Packages/mesa-vulkan-kgsl_23.3.0-devel-20230728_armhf.deb
+wget https://github.com/xDoge26/proot-setup/raw/main/Packages/mesa-vulkan-kgsl_23.3.0-devel-20230812_arm64.deb
+wget https://github.com/xDoge26/proot-setup/raw/main/Packages/mesa-vulkan-kgsl_23.3.0-devel-20230812_armhf.deb
 
 dpkg -i mesa-vulkan-kgsl_23.3.0-*
 
